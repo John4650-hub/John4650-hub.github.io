@@ -1,12 +1,12 @@
 # Welcome to my github Page
 
 ## intro
-* Hello there 👋😀, am a professional software developer with  2 years of experience programming in;
+* Hello there 👋😀, am a junior software developer with  2 years of experience programming in;
 1. HTML, CSS and Javascript
-2. Python;
-    - service-apps
-    - webScrapping
-    - Data science
+2. Python
+3. Gui apps
+4. Building games with the famous [phaser](h)
+5. 
 * Here on this page you will find my projects
 
 ## This is the list of projects i have worked on.
