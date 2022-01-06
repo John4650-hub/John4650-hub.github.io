@@ -16,7 +16,10 @@ footer {
   background-color: #a6a6a6;
   border-width: 50%;
   text-align: center;
+  font-family: 'Times New Roman';
+  text-decoration: none;
 }
+footer a{text-decoration: none;}
 
 #skills {
   background: #d9d9d9;
@@ -29,33 +32,45 @@ h3 {
 
 }
 
-body {
-  background: #f2f2f2;
-  
-}
-
-a{
-  text-decoration: none;
-  border-radius: 10%;
-  text-align: left;
-  color: #000000;
-  font-family: serif;
-  
-}
+body {background: #f2f2f2;}
 
 #txt1 {
   background: #d9d9d9;
 }
 
 #navbar {
-  position: -webkit-sticky;
-  position: sticky;
   width: 100%;
-  top:0;
-  overflow: hidden;
-  margin: 0;
-  float: left;
-  border: 1px solid #e7e7e7;
-  background:#B6B6BD
+  background-color: #808080;
+  overflow: auto;
+}
 
+/* Navigation links */
+#navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+#navbar a:hover {
+  background-color: #000000;
+}
+
+/* Style the current/active link */
+#navbar a.active {
+  background-color: #000000;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  #navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
 }
