@@ -6,25 +6,32 @@ header {
 
 #content {
   background-color: #f2f2f2;
-  width: 100%;
+  width: 86%;
   height: 100%;
-  border-radius: 2%;
+  border-radius: 25px;
   text-align: left;
+  padding: 25px;
 }
 
 footer {
   background-color: #a6a6a6;
-  border-width: 50%;
+  border-radius: 25px;
   text-align: center;
   font-family: 'Times New Roman';
   text-decoration: none;
+
 }
-footer a{text-decoration: none;}
+
+footer a {
+  text-decoration: none;
+}
 
 #skills {
   background: #d9d9d9;
-  border-width: 10%;
+  border-radius: 25px;
   text-align: left;
+  box-shadow: 5px 5px;
+
 }
 
 h3 {
@@ -32,14 +39,15 @@ h3 {
 
 }
 
-body {background: #e6e6e6;}
+body {
+  background: #e6e6e6;
+}
 
 #txt1 {
   background: #d9d9d9;
 }
 
 #navbar {
-  width: 100%;
   background-color: #595959;
   overflow: auto;
 }
@@ -48,21 +56,22 @@ body {background: #e6e6e6;}
 #navbar a {
   float: left;
   padding: 12px;
-  color: white;
+  color: #000000;
   text-decoration: none;
   font-size: 17px;
-  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
+  text-align: center;
+  border-radius: 1px
+  
 }
 
 /* Add a background color on mouse-over */
 #navbar a:hover {
-  background-color: #000000;
+  background-color: #0000ff;
 }
 
 /* Style the current/active link */
-#navbar a.active {
-  background-color: #000000;
+#navbar a:visited {
+  background-color: #00ffff;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
@@ -70,7 +79,12 @@ body {background: #e6e6e6;}
   #navbar a {
     float: none;
     display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    text-align: left;
+    /* If you want the text to be left-aligned on small screens */
   }
+}
+
+
+#conclusion {
+  border-radius: 25px
 }
