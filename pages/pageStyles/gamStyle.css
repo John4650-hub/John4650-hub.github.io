@@ -1,0 +1,35 @@
+#Games2D {
+  border-radius: 25px;
+  box-shadow: 20px 20px 20px #827d7d;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  
+}
+#Games2D:active{
+  background-color: skyblue;
+  
+}
+#Games3D:active{
+  background-color: skyblue;
+  
+}
+
+#Games3D {
+  border-radius: 25px;
+  box-shadow: 20px 20px 20px #827d7d;
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+#CLI {
+  border-radius: 25px;
+  box-shadow: 20px 20px 20px #827d7d;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  
+}
