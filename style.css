@@ -1,16 +1,18 @@
 header {
-  width: 100%;
   text-align: center;
-  padding-top: 50px;
+  position: inline;
+  padding-block: 5px;
 }
 
-#content {
+body {
   background-color: #f2f2f2;
-  width: 86%;
+  width: 95%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 5px;
   text-align: left;
-  padding: 25px;
+  padding: 0%;
+  position: block;
+
 }
 
 footer {
@@ -39,53 +41,50 @@ h3 {
 
 }
 
-body {
+/* body {
   background: #e6e6e6;
-}
+} */
 
 #txt1 {
-  background: #d9d9d9;
-}
-
-#navbar {
-  background-color: #595959;
-  border-radius:15px;
-  overflow: auto;
-}
-
-/* Navigation links */
-#navbar a {
-  float: left;
-  padding: 12px;
-  color: #000000;
-  text-decoration: none;
-  font-size: 17px;
-  text-align: center;
-  border-radius: 1px
-}
-
-/* Add a background color on mouse-over */
-#navbar a:hover {
-  background-color: #0000ff;
-}
-
-/* Style the current/active link */
-#navbar a:visited {
-  background-color: #00ffff;
-}
-
-
-  #navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-    /* If you want the text to be left-aligned on small screens */
+  background:#FF000075 ;
 }
 
 #conclusion {
   border-radius: 25px
 }
-#exp{
-  background-color:#FF0ff0;
+
+#exp {
+  background-color: #FF0ff0;
   border-radius: 5px;
+}
+
+.nav-Links li {
+  list-style: none;
+  display: inline;
+  padding: 6px;
+
+}
+
+.nav-Links a {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 2px;
+
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #9E9E9E;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px;
+  width:100%;
+
 }
