@@ -7,7 +7,6 @@
 }
 
 body {
-
   background-color: #353836;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -45,14 +44,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #000033;
-  color: white;
-  width: 95%;
-  height: 100%;
-  border-radius: 5px;
-  text-align: left;
-  padding: 2%;
-  position: block;
+
 }
 
 #goto a {
@@ -76,20 +68,12 @@ header {
   padding: 5px 8px;
 }
 
-
 #login {
   border: 1px solid #498afb;
 }
 
 #signup {
   border: 1px solid #ff3860;
-#skills {
-  background: #d9d9d9;
-  border-radius: 25px;
-  text-align: left;
-  box-shadow: 5px 5px 9px 5px;
-  padding-left:2%;
-
 }
 
 #signup a {
@@ -99,7 +83,6 @@ header {
 #login a {
   color: #498afb;
 }
-
 
 #hamburger-icon {
   margin: auto 0;
@@ -113,9 +96,6 @@ header {
   background-color: white;
   margin: 6px 0;
   transition: 0.4s;
-
-#txt1 {
-  background:#FF000075 ;
 }
 
 .open .bar1 {
@@ -127,7 +107,6 @@ header {
   opacity: 0;
 }
 
-
 .open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
@@ -138,13 +117,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
-.nav-Links li {
-  list-style: none;
-  display: inline;
-  padding: 6px;
-  font-size: 16px;
-  
 }
 
 .mobile-menu {
@@ -220,15 +192,3 @@ td{
   background-color: white;
   border-radius: 25px 25px;
 }
-
-#navbar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #9E9E9E;
-  border-radius: 5px;
-  box-shadow: 9px 2px 9px 5px;
-  width:100%;
-
-}
-
