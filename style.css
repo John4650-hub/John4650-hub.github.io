@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #353836;
+  background-color: #474b57;
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -60,28 +60,6 @@ header {
 #goto li:hover {
   transform: scale(1.1);
   transition: 0.3s;
-}
-
-#login,
-#signup {
-  border-radius: 5px;
-  padding: 5px 8px;
-}
-
-#login {
-  border: 1px solid #498afb;
-}
-
-#signup {
-  border: 1px solid #ff3860;
-}
-
-#signup a {
-  color: #ff3860;
-}
-
-#login a {
-  color: #498afb;
 }
 
 #hamburger-icon {
@@ -143,52 +121,94 @@ header {
     display: block;
   }
 }
-#skills{
+
+#skills {
   padding: 5% 40% 2%;
-  
+
 }
-#skills ul li{
+
+#skills ul li {
   background-color: #3B4291;
   border-radius: 2px;
   width: 100%;
   list-style: none;
   border-width: 50%;
-  border:1px solid blue;
-  
+  border: 1px solid blue;
+
 }
-.skills-pallet{
+
+.skills-pallet {
   padding: 5% 40% 2%;
 }
 
-table ,tr,th{
+table,
+tr,
+th {
   border: 1px solid deepskyblue;
   border-collapse: collapse;
-  border-radius:20%;
+  border-radius: 20%;
   padding: 10%;
 }
-table{
-  width: 360px;
+
+table {
+  width: 300px;
 
 }
-td{
+
+td {
   text-align: center;
 }
-.tbl{
-  padding-top:10px;
-  padding-bottom:10px;
+
+.tbl {
+  padding: 30px;
 }
-#tbl-hd{
+
+#tbl-hd {
   font-style: bold;
   font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
 }
-.w0,.w1,.w2{
+
+.w0,
+.w1,
+.w2 {
   font-style: italic;
   font-family: courier New;
 }
-#duckX{
-  width:40px;
+
+#duckX {
+  width: 40px;
   height: 40px;
   background-color: white;
   border-radius: 25px 25px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 5%;
+  
+}
+
+footer a {
+  border: 2px solid blue;
+  text-decoration: none;
+  border-radius:5px;
+  color: black;
+  background-color: #03A8FF;
+}
+
+.c2{
+  padding: 20px;
+}
+#conclusion{
+  padding: 20px;
+}
+.pyskl{
+  padding: 25px
+}
+
+hr{
+  background-color: white;
+  height: 5px;
+  border-radius:15px;
 }
