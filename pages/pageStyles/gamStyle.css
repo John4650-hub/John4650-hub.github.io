@@ -1,41 +1,31 @@
-#Games2D {
-  border-radius: 50px;
-  box-shadow: 20px 20px 20px #827d7d;
-  background-color: red;
-  height: 100%;
-  width: 100%;
+footer {
+    text-align: center;
+    padding-top: 5%;
 
 }
 
-#Games2D:active {
-  background-color: skyblue;
-
+footer>ul>li {
+    border: 2px solid blue;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    border: none;
+    width: 30%;
 }
 
-#Games3D:active {
-  background-color: skyblue;
-
+footer {
+    padding: 15px;
 }
 
-#Games3D {
-  border-radius: 50px;
-  box-shadow: 20px 20px 20px #827d7d;
-  background-color: blue;
-  height: 100%;
-  width: 100%;
-
+footer li a {
+    text-decoration: none;
 }
 
-#CLI:active {
-  background-color: skyblue;
-  
+footer a:hover {
+    text-decoration: underline;
 }
 
-#CLI {
-  border-radius: 50px;
-  box-shadow: 20px 20px 20px #827d7d;
-  background-color: white;
-  height: 100%;
-  width: 100%;
-
+footer a:visited {
+    color: blue;
 }
