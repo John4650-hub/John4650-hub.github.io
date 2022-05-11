@@ -1,65 +1,96 @@
+<!-- Hmu -->
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../style.css">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/res/bootstrap.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/20220210_024521.ico">
+  <style>
+    footer a {
+      text-decoration: none;
+    }
+  </style>
+  <title>Gamered</title>
 </head>
 
 <body>
-    <header>
-        <div id="brand">
-            <img id="duckX" src="/assets/cool duck.png" alt="">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top " style="background-color: fuchsia;">
+    <div class="container-fluid">
 
-            <a href="../index.html">GAMERED</a>
+      <a class="navbar-brand" href="/index.html"><img src="/assets/cool duck.png" alt="cool duck" width="30" height="24"> Gamered</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav py-md-0">
+          <hr>
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="./download.html" >Download</a>
+          <a class="nav-link active" href="./games.html" aria-current="page">Games</a>
+          <a class="nav-link" href="./projects.html">Projects</a>
+          <a class="nav-link " href="./aboutMe.html">About Dev</a>
         </div>
-        <nav>
-            <ul id="goto">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./download.html">Download</a></a></li>
-                <li><a href="./games.html">Games</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="../index.html">About developer</a></li>
-            </ul>
-        </nav>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./download.html">Download</a></li>
-                <li><a href="./games.html">Games</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="../index.html">About developer</a></li>
-            </ul>
-        </div>
-    </header>
-    <p>Still in development</p>
-    
-    <p class="panel">Welcome to the fun part of the website, all games here are playable online. click play to quickly tryout some game for free.<br /><br />
-    <hr/>
+      </div>
+    </div>
+  </nav>
+  <br />
+  <div class="card text-center" style="width: 21.5rem;">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link" onclick="loadDescription('descript','<img src=\'/assets/message.png\' class=\'card-img-top\' alt=\'flappy-bird-png\' height=\'350\'><hr style=\'width=100%\'><div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a basic version of the flappy bird game.</p></div>')">Game</a>
+        </li>
+        <li onclick="loadDescription('descript','In this game you are required to fly through all the poles without getting in contact with any')" class="nav-item">
+          <a class="nav-link">Description</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">comments</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body" id='descript'>
+      <img src="/assets/message.png" class="card-img-top" alt="flappy-bird-png" height="350">
+      <hr>
+      <br>
+      <h5 class="card-title">Flappy bird</h5>
+      <p class="card-text"> This is a basic version of the flappy bird game.
+      </p>
+    </div>
+    <a class="btn btn-danger">play</a>
 
-    <footer>
-        <ul>
-            <li>
-                <a href="mailto:johndelvin51@gmail.com">Contact me</a>
-            </li>
-            <li>
-                <a href="/pages/aboutMe.html">About Dev</a>
-            </li>
-            <li>
-                <a href="#">Permission</a>
-            </li>
-            <li>
-                <p>© 2019-2022</p>
-            </li>
-        </ul>
-    </footer>
-    <script src="../index.js"></script>
+  </div>
 
+  </div>
+  <footer class="bg-light">
+    <div class="d-flex justify-content-center">
+      <ul class="list-unstyled small text-muted" style="text-decoration: none">
+        <li class="mb-2 pt-3">
+          <a href="mailto:johndelvin51@gmail.com">Contact me</a>
+        </li>
+        <li class="mb-2">
+          <a href="/pages/aboutMe.html">About Dev</a>
+        </li>
+        <li class="mb-4">
+          <a href="#">Permission</a>
+        </li>
+        <li>
+          <p>© 2019-2022</p>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <script src="../res/bootstrap.bundle.js"></script>
+  <script src="../index.js"></script>
+  
 </body>
 
 </html>
+<!-- created by John delvin with github pages
+website admin: John Delvin
+Email: johndelvin51@gmail.com
+-->

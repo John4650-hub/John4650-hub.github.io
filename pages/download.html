@@ -1,65 +1,164 @@
+<!-- Hmu -->
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../style.css">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/res/bootstrap.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/20220210_024521.ico">
+  <style>
+    footer a {
+      text-decoration: none;
+
+    }
+    .card{
+      margin-bottom: 2%;
+    }
+  </style>
+  <title>Gamered</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top " style="background-color: fuchsia;">
+    <div class="container-fluid">
 
-    <header>
-        <div id="brand">
-            <img id="duckX" src="/assets/cool duck.png" alt="">
-
-            <a href="/">GAMERED</a>
-        </div>
-        <nav>
-            <ul id="goto">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./download.html">Download</a></a></li>
-                <li><a href="./games.html">Games</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="../index.html">About developer</a></li>
-            </ul>
-        </nav>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./download.html">Download</a></li>
-                <li><a href="./games.html">Games</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="../index.html">About developer</a></li>
-            </ul>
-        </div>
-    </header>
-    still in development...
-    <p>Welcome to the download page, Here you will find all links to my programs i will also compile some of the games to apk files and i will post them here.
-    </p>
-
-    <footer>
-        <ul>
-            <li>
-                <a href="mailto:johndelvin51@gmail.com">Contact me</a>
-            </li>
-            <li>
-                <a href="./aboutMe.html">About Dev</a>
-            </li>
-            <li>
-                <a href="#">Permission</a>
-            </li>
-            <li>
-                <p>© 2019-2022</p>
-            </li>
+      <a class="navbar-brand" href="/index.html"><img src="/assets/cool duck.png" alt="cool duck" width="40" height="35"><span class="text-light fs-2 fw-bold">Gamered</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <hr>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./download.html" aria-current="page">Download</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./games.html">Games</a></li>
+          <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+          <li class="nav-item">
+            <a class="nav-link " href="./aboutMe.html">About Dev</a>
+          </li>
         </ul>
-    </footer>
-    <script src="../index.js"></script>
+      </div>
+    </div>
+  </nav>
+  <br />
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+<div class="card text-center" style="width: 21.4rem;">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link" onclick="loadDescription('flappyDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a basic version of the flappy bird game.</p></div>')">Game</a>
+      </li>
+      <li onclick="loadDescription('flappyDescript','In this game you are required to fly through all the poles without getting in contact with any')" class="nav-item">
+        <a class="nav-link">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">comments</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <img src="https://github.com/John4650-hub/flappy-bird/blob/main/assets/message.png" class="card-img-top" alt="flappy-bird-png" width="10" height="350">
+    <hr>
+    <div id="flappyDescript">
+    <h5 class="card-title">Flappy bird</h5>
+    <p class="card-text"> This is a basic version of the flappy bird game.
+    </p>
+    </div>
+  </div>
+  <a class="btn btn-danger">Download</a>
+</div>
+    </div>
+    <div class="col">
+<div class="card text-center" style="width: 21.4rem;">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link" onclick="loadDescription('pingDescript','<div class=\'card-body\'><h5 class=\'card-title\'>PingPong</h5><p class=\'card-text\'>This is a basic version of the pingpong game.</p></div>')">Game</a>
+      </li>
+      <li onclick="loadDescription('pingDescript','If you have never played ping pong in real life then read on. In this game you\'re required to hit the ball when it\'s your turn. Failure to do so, you lose.')" class="nav-item">
+        <a class="nav-link">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">comments</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <img src="https://user-images.githubusercontent.com/84484398/144965906-83c6fefc-687d-496f-bd20-978e751b968c.gif" class="card-img-top" alt="ping-pong-animated-gif" width="10" height="350">
+    <hr>
+    <div id="pingDescript">
+    <h5 class="card-title">PingPong</h5>
+    <p class="card-text"> This is a basic version of the pingpong game.
+    </p>
+    </div>
+  </div>
+  <a class="btn btn-danger">Download</a>
+</div>
+    </div>
+    <div class="col">
+<div class="card text-center" style="width: 21.4rem;">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link" onclick="loadDescription('easterDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a small fun game  to play on Easter.</p></div>')">Game</a>
+      </li>
+      <li onclick="loadDescription('easterDescript','In this game you are required to collect 50 eggs in 5 minutes in order to win. Time is ticking.Choose the best way to look for the eggs before easter')" class="nav-item">
+        <a class="nav-link">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">comments</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <img src="https://user-images.githubusercontent.com/84484398/162875161-371cb6bc-27d2-4930-946c-6ccbb80604a6.png" class="card-img-top" alt="easter-egg-png" width="10" height="350">
+    <hr>
+    <div id="easterDescript">
+    <h5 class="card-title">Easter Bunny Time</h5>
+    <p class="card-text"> This is a small challenging game to play on Easter.
+    </p>
+    </div>
+  </div>
+  <a class="btn btn-danger">Download</a>
+</div>
+    </div>
+  </div>
+</div>
+
+  <footer class="bg-light">
+    <div class="d-flex justify-content-center">
+      <ul class="list-unstyled small text-muted" style="text-decoration: none">
+        <li class="mb-2 pt-3">
+          <a href="mailto:johndelvin51@gmail.com">Contact me</a>
+        </li>
+        <li class="mb-2">
+          <a href="/pages/aboutMe.html">About Dev</a>
+        </li>
+        <li class="mb-4">
+          <a href="#">Permission</a>
+        </li>
+        <li>
+          <p>© 2019-2022</p>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="../res/bootstrap.bundle.js"></script>
+  <script src="../index.js"></script>
 </body>
 
 </html>
+<!-- created by John delvin with github pages
+website admin: John Delvin
+Email: johndelvin51@gmail.com
+-->
