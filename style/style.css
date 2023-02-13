@@ -4,3 +4,10 @@ body{
 footer a {
   text-decoration: none;
 }
+.navbar{
+  background-color: #212121;
+  color: ghostwhite;
+}
+.navbar-nav .nav-link{
+  color:white;
+}
