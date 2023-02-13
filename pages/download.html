@@ -5,8 +5,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-<link href="../css/bootstrap.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="../css/bootstrap.css" rel="stylesheet">
 
   <link rel="shortcut icon" type="image/x-icon" href="/20220210_024521.ico">
   <style>
@@ -14,12 +14,19 @@
       text-decoration: none;
 
     }
-    .card{
+
+    .card {
       margin-bottom: 2%;
     }
-    .img-thumbnail{
-      height:200px;
+
+    .img-thumbnail {
+      height: 200px;
       width: 250px;
+    }
+
+    .card-text {
+      height: 50px;
+      overflow: visible;
     }
   </style>
   <title>Gamered</title>
@@ -53,123 +60,123 @@
   </nav>
   <br />
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-<div class="card text-center" >
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
-      <li class="nav-item">
-        <a class="nav-link" onclick="loadDescription('flappyDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a basic version of the flappy bird game.</p></div>')">Game</a>
-      </li>
-      <li onclick="loadDescription('flappyDescript','In this game you are required to fly through all the poles without getting in contact with any')" class="nav-item">
-        <a class="nav-link">Description</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">comments</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-body">
-    <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/167751161-b22ff11b-f234-41d9-927f-53edba8ca691.png" alt="flappy-bird-png">
-    <hr>
-    <div id="flappyDescript">
-    <h5 class="card-title">Flappy bird</h5>
-    <p class="card-text"> This is a basic version of the flappy bird game.
-    </p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link" onclick="loadDescription('flappyDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a basic version of the flappy bird game.</p></div>')">Game</a>
+              </li>
+              <li onclick="loadText('flappyDescript','In this game you are required to fly through all the poles without getting in contact with any')" class="nav-item">
+                <a class="nav-link">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">comments</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/167751161-b22ff11b-f234-41d9-927f-53edba8ca691.png" alt="flappy-bird-png">
+            <hr>
+            <div id="flappyDescript">
+              <h5 class="card-title">Flappy bird</h5>
+              <div class="card-text"> This is a basic version of the flappy bird game.
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-danger" href="https://github.com/John4650-hub/flappy-bird/releases/download/v1.0.0/Flappy.bird_1.0.apk">Download</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link" onclick="loadDescription('pingDescript','<div class=\'card-body\'><h5 class=\'card-title\'>PingPong</h5><p class=\'card-text\'>This is a basic version of the pingpong game.</p></div>')">Game</a>
+              </li>
+              <li onclick="loadText('pingDescript','If you have never played ping pong in real life then read on. In this game you\'re required to hit the ball when it\'s your turn. Failure to do so, you lose.')" class="nav-item">
+                <a class="nav-link">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">comments</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/144965906-83c6fefc-687d-496f-bd20-978e751b968c.gif" alt="ping-pong-animated-gif">
+            <hr>
+            <div id="pingDescript">
+              <h5 class="card-title">PingPong</h5>
+              <p class="card-text"> This is a basic version of the pingpong game.
+              </p>
+            </div>
+          </div>
+          <a class="btn btn-danger" href="https://github.com/John4650-hub/PingPong-with-phaser3/releases/download/v1.0.0/Ping.Pong_1.0.apk">Download</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link" onclick="loadDescription('easterDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a small fun game  to play on Easter.</p></div>')">Game</a>
+              </li>
+              <li onclick="loadText('easterDescript','In this game you are required to collect 50 eggs in 5 minutes in order to win. Time is ticking.Choose the best way to look for the eggs before easter')" class="nav-item">
+                <a class="nav-link">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">comments</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+
+            <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/162875161-371cb6bc-27d2-4930-946c-6ccbb80604a6.png" alt="easter-egg-png">
+            <hr>
+            <div id="easterDescript">
+              <h5 class="card-title">Easter Bunny Time</h5>
+              <p class="card-text"> This is a small challenging game to play on Easter.
+              </p>
+            </div>
+          </div>
+          <a class="btn btn-danger" href="https://github.com/John4650-hub/Easter-bunny-time/releases/download/v1.0.0/Easter.Bunny.Time_1.0.apk">Download</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link" onclick="loadDescription('jumperDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a small fun game  to play anytime.</p></div>')">Game</a>
+              </li>
+              <li onclick="loadText('jumperDescript','In this game you are required to collect all carrots that you come across and at the sametime you need to stay on the platforms while doing it. Have fun.')" class="nav-item">
+                <a class="nav-link">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">comments</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/168269701-05918410-f2d1-40fd-8cf9-5d40dad1ec0f.png">
+            <hr>
+            <div id="jumperDescript">
+              <h5 class="card-title">infinity jumper</h5>
+              <p class="card-text"> This is a small challenging game to play on anytime.
+              </p>
+            </div>
+          </div>
+          <a class="btn btn-danger" href="https://github.com/John4650-hub/infinity-jumper/releases/tag/v1.0.0">Download</a>
+        </div>
+
+      </div>
+
     </div>
   </div>
-  <a class="btn btn-danger" href="https://github.com/John4650-hub/flappy-bird/releases/download/v1.0.0/Flappy.bird_1.0.apk">Download</a>
-</div>
-    </div>
-    <div class="col">
-<div class="card text-center" >
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
-      <li class="nav-item">
-        <a class="nav-link" onclick="loadDescription('pingDescript','<div class=\'card-body\'><h5 class=\'card-title\'>PingPong</h5><p class=\'card-text\'>This is a basic version of the pingpong game.</p></div>')">Game</a>
-      </li>
-      <li onclick="loadDescription('pingDescript','If you have never played ping pong in real life then read on. In this game you\'re required to hit the ball when it\'s your turn. Failure to do so, you lose.')" class="nav-item">
-        <a class="nav-link">Description</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">comments</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-body">
-    <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/144965906-83c6fefc-687d-496f-bd20-978e751b968c.gif" alt="ping-pong-animated-gif">
-    <hr>
-    <div id="pingDescript">
-    <h5 class="card-title">PingPong</h5>
-    <p class="card-text"> This is a basic version of the pingpong game.
-    </p>
-    </div>
-  </div>
-  <a class="btn btn-danger" href="https://github.com/John4650-hub/PingPong-with-phaser3/releases/download/v1.0.0/Ping.Pong_1.0.apk">Download</a>
-</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-<div class="card text-center" >
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
-      <li class="nav-item">
-        <a class="nav-link" onclick="loadDescription('easterDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a small fun game  to play on Easter.</p></div>')">Game</a>
-      </li>
-      <li onclick="loadDescription('easterDescript','In this game you are required to collect 50 eggs in 5 minutes in order to win. Time is ticking.Choose the best way to look for the eggs before easter')" class="nav-item">
-        <a class="nav-link">Description</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">comments</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-body">
-    
-    <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/162875161-371cb6bc-27d2-4930-946c-6ccbb80604a6.png" alt="easter-egg-png" >
-    <hr>
-    <div id="easterDescript">
-    <h5 class="card-title">Easter Bunny Time</h5>
-    <p class="card-text"> This is a small challenging game to play on Easter.
-    </p>
-    </div>
-  </div>
-  <a class="btn btn-danger" href="https://github.com/John4650-hub/Easter-bunny-time/releases/download/v1.0.0/Easter.Bunny.Time_1.0.apk">Download</a>
-</div>
-    </div>
-    <div class="col">
-<div class="card text-center">
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
-      <li class="nav-item">
-        <a class="nav-link" onclick="loadDescription('jumperDescript','<div class=\'card-body\'><h5 class=\'card-title\'>Flappy bird</h5><p class=\'card-text\'>This is a small fun game  to play anytime.</p></div>')">Game</a>
-      </li>
-      <li onclick="loadDescription('jumperDescript','In this game you are required to collect all carrots that you come across and at the sametime you need to stay on the platforms while doing it. Have fun.')" class="nav-item">
-        <a class="nav-link">Description</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">comments</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-body">
-    <img class="img-thumbnail" src="https://user-images.githubusercontent.com/84484398/168269701-05918410-f2d1-40fd-8cf9-5d40dad1ec0f.png">
-    <hr>
-    <div id="jumperDescript">
-    <h5 class="card-title">infinity jumper</h5>
-    <p class="card-text"> This is a small challenging game to play on anytime.
-    </p>
-    </div>
-  </div>
-  <a class="btn btn-danger" href="https://github.com/John4650-hub/infinity-jumper/releases/tag/v1.0.0">Download</a>
-</div>
-      
-    </div>
-    
-  </div>
-</div>
 
   <footer class="bg-light">
     <div class="d-flex justify-content-center">
@@ -184,15 +191,17 @@
           <a href="#">Permission</a>
         </li>
         <li>
-          <p>© 2019-2022</p>
+          <p id="copyright">© </p>
         </li>
       </ul>
     </div>
   </footer>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-<script src="../js/bootstrap.bundle.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="../js/bootstrap.bundle.js"></script>
   <script src="../index.js"></script>
+  <script src="../www/eruda.js"></script>
+  <script src="../www/console.js"></script>
 </body>
 
 </html>
