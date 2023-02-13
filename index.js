@@ -1,6 +1,4 @@
-var bodyElm=document.querySelector("body")
 
-bodyElm.style.backgroundColor="#000000"
 function loadDescription(name, data) {
   let elm = document.getElementById(name);
   elm.innerHTML = data;
